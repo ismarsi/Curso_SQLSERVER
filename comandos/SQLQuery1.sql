@@ -4,7 +4,6 @@ USE curso_SQL_INOVA
 --CREATE DATABASE curso_SQL_INOVA
 
 
---truncar o que é --> é diminuir um tamanho de campo quer dizer que se eu passei um valor em varchar (10) e tiver 20 ele vai diminuir para 10 cortando as palavras isso é truncar 
 
 CREATE TABLE Produtos(
 codigoProduto INT PRIMARY KEY IDENTITY (1,1) ,
@@ -35,7 +34,3 @@ ADD CONSTRAINT FK_Produto_Venda
 FOREIGN KEY (codigoProduto)
 REFERENCES Produtos (codigoProduto)
 
---CONSTRAINT --> é uma regra é a restricao de uma integridade sao usados 
---para garantir a exatidao e a consistencia  dos dados 
-
---quando eu faco um CONSTRAINT  estou altrando uma tabela 
