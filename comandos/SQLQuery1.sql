@@ -33,5 +33,4 @@ ALTER TABLE Vendas
 ADD CONSTRAINT FK_Produto_Venda
 FOREIGN KEY (codigoProduto)
 REFERENCES Produtos (codigoProduto)
-
-SELECT * FROM 
+teste
