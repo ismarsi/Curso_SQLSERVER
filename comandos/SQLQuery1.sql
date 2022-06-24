@@ -34,5 +34,3 @@ ADD CONSTRAINT FK_Produto_Venda
 FOREIGN KEY (codigoProduto)
 REFERENCES Produtos (codigoProduto)
 
-
-ssd	
